@@ -6,7 +6,7 @@ import seaborn as sns
 import plotly.express as px
 
 # 0. Config the page
-st.set_page_config(page_title='Data Science App', page_icon='🧊', layout='centered',)
+st.set_page_config(page_title='Data Science App', page_icon='🧊', layout='wide',)
 
 # 1. Load the data
 @st.cache_data()
